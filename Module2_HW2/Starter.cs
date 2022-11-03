@@ -15,9 +15,6 @@
 
             UserSortChoice(present);
             UserFindChoice(present);
-
-            // написать комментарии к классам
-            // написать условие задания
         }
 
         // Make initial sweets
