@@ -1,6 +1,6 @@
 ﻿namespace Module2_HW2.Finder
 {
-    public class FindTotalPriceOverClient : IFinder
+    public class FindTotalPriceOverClient
     {
         public static IConfectionery[] Find(IConfectionery[] sweets, double price)
         {

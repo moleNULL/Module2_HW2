@@ -2,7 +2,7 @@
 {
     public class FindOnlyCandiesClient : IFinder
     {
-        public static IConfectionery[] Find(IConfectionery[] sweets)
+        public IConfectionery[] Find(IConfectionery[] sweets)
         {
             IConfectionery[] confectionery = new IConfectionery[sweets.Length];
             int count = 0;

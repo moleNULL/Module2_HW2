@@ -23,7 +23,7 @@ namespace Module2_HW2
 
         public static void PrintOnlyCandies(this ChristmasPresent present)
         {
-            IConfectionery[] conf = FindOnlyCandiesClient.Find(present.Sweets);
+            IConfectionery[] conf = new FindOnlyCandiesClient().Find(present.Sweets);
 
             if (conf.Length == 0)
             {
@@ -39,7 +39,7 @@ namespace Module2_HW2
 
         public static void PrintOnlyCookies(this ChristmasPresent present)
         {
-            IConfectionery[] conf = FindOnlyCookiesClient.Find(present.Sweets);
+            IConfectionery[] conf = new FindOnlyCookiesClient().Find(present.Sweets);
 
             if (conf.Length == 0)
             {
