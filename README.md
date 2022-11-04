@@ -1,4 +1,4 @@
-# NIX Solutions Module #2 Homework #2
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NIX Solutions Module #2 Homework #2
 
                                                           Задача:
                                     Спроектувати об'єктну модель для заданої наочної області.
