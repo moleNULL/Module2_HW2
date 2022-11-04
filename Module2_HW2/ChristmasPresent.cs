@@ -49,12 +49,12 @@ namespace Module2_HW2
 
         public void SortByTotalPrice()
         {
-            SortByTotalPriceClient.Sort(ref _sweets);
+            new SortByTotalPriceClient().Sort(ref _sweets);
         }
 
         public void SortByWeight()
         {
-            SortByWeightClient.Sort(ref _sweets);
+            new SortByWeightClient().Sort(ref _sweets);
         }
     }
 }

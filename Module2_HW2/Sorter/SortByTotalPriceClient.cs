@@ -2,7 +2,7 @@
 {
     public class SortByTotalPriceClient : ISort
     {
-        public static void Sort(ref IConfectionery[] sweets)
+        public void Sort(ref IConfectionery[] sweets)
         {
             double[] arr = new double[sweets.Length];
 

@@ -2,9 +2,6 @@
 {
     public interface ISort
     {
-        public static void Sort(ref IConfectionery[] sweets)
-        {
-            Array.Sort(sweets); // plug. Since static modifier requires body
-        }
+        public void Sort(ref IConfectionery[] sweets);
     }
 }
